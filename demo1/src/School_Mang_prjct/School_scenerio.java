@@ -21,6 +21,7 @@ public class School_scenerio
 	    driver.findElement(By.xpath(".//*[@id='bs-example-navbar-collapse-1']/ul[3]/li")).click();
 	    driver.findElement(By.xpath(".//*[@id='sub_School']/li[1]/a")).click();
 	    
+	    System.out.println("WebTable testing");
 	    
 }
 	 @Test(dependsOnMethods="jun",description="To read AUGUST")
